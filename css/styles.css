@@ -120,18 +120,16 @@ li.anjay {
         margin-top: 100px;
     }
     .bg-indo {
-        margin-top: 5px;
-        background-position: center;
+        background-position: center center;
     }
     .margin-top {
         padding-top: 200px;
     }
     h1 {
-        font-family: urwood;
-        font-size: 50px;
+        font-size: 40px;
     }
     .subheading {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
