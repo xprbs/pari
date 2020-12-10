@@ -36,12 +36,17 @@ body {
     margin-top: 40vh;
 }
 
+.margin-to {
+    padding-top: 20vh;
+}
+
 .bg-indo {
     background-image: url('../images/indonesia.png');
-    background-position: top;
+    background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: 1290px;
-    min-height: 50vh;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: contain;
     /* border: 1px solid white; */
 }
 
@@ -113,6 +118,20 @@ li.anjay {
 @media screen and (max-width: 768px) {
     .tablle {
         margin-top: 100px;
+    }
+    .bg-indo {
+        margin-top: 5px;
+        background-position: center;
+    }
+    .margin-top {
+        padding-top: 200px;
+    }
+    h1 {
+        font-family: urwood;
+        font-size: 50px;
+    }
+    .subheading {
+        font-size: 40px;
     }
 }
 
